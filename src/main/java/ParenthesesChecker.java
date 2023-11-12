@@ -17,14 +17,10 @@ public class ParenthesesChecker {
                 }
             }
         }
-
-        if(stack.isEmpty())
-        return true;
-        else
-            return false;
+// check if stack is empty and all brackets are matched
+        return stack.isEmpty();
     }
 
 
-     
 }
 
